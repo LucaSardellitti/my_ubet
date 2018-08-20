@@ -1,0 +1,117 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.messagePrevention{
+	width: 100%;
+	background-color: #000000;
+}
+
+.messagePrevention p{
+	font-size: 16px;
+	text-align: center;
+	color: #FAFAFA;
+	font-family: sans-serif;
+	padding: 0.5%;
+}
+
+.messagePrevention span{
+	font-size: 10px;
+}
+
+nav{
+	margin-top: -1%;
+	background-color: #1C1C1C;
+}
+
+nav img{
+	width: 6%;
+}
+
+.sloganConnect{
+	margin-top: 6%;
+	width: 15%;
+}
+
+.slogan{
+	margin-top: 2%;
+	width: 15%;
+}
+
+.modal-body form{
+	width: 60%;
+}
+
+.formulaire h1{
+	text-align: center;
+}
+
+.formulaire{
+	margin-top: 2%;
+}
+
+form{
+	min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: rgba(225, 255, 255, 0.5);
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    width: 38%;
+    margin: auto;
+}
+
+.prevention p{
+	margin-top: 4%;
+	font-size: 8px;
+}
+
+.btnConnect{
+	margin-top: 2.5%;
+	margin-left: 45%;
+}
+
+hr{
+	width: 70%;
+}
+
+footer{
+	position: absolute;
+	bottom: 0px;
+}
+
+footer img{
+	/*margin-left: 38%;*/
+	/*margin-top: -8%;*/
+}
+
+.back{
+	margin-top: -5%;
+}
+
+.errorMsg{
+	margin-top: -22%;
+	margin-left: 10%;
+	border: 1px solid #000;
+	border-radius: 4px;
+	width: 20%;
+	padding: 1%;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0.4);
+	color: #fff;
+}
+
+.errorMsgConnect{
+	margin-top: -18%;
+	margin-left: 10%;
+	border: 1px solid #000;
+	border-radius: 4px;
+	width: 20%;
+	padding: 1%;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0.4);
+	color: #fff;
+}

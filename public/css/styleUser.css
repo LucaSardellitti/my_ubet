@@ -1,0 +1,256 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../img/fond.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed
+}
+
+.messagePrevention{
+	width: 100%;
+	background-color: #000000;
+}
+
+.messagePrevention p{
+	font-size: 16px;
+	text-align: center;
+	color: #FAFAFA;
+	font-family: sans-serif;
+	padding: 0.5%;
+}
+
+.messagePrevention span{
+	font-size: 10px;
+}
+
+nav a{
+	color: #fff;
+}
+
+nav a:hover{
+	text-decoration: none;
+	color: #5cb85c;
+	font-size: 16px;
+	transition: 0.8s;
+}
+
+nav{
+	margin-top: -1%;
+	background-color: #1C1C1C;
+	margin-bottom: 2%;
+}
+
+nav img{
+	width: 6%;
+}
+
+footer{
+	position: absolute;
+	bottom: 0px;
+}
+
+.events{
+	border: 1px solid #000000;
+	margin: 2%;
+}
+
+.nameOfEvent{
+	background: linear-gradient(0deg, #0B0B3B, #0B0B61);
+	color: #fff;
+	padding: 3%;
+	text-align: center;
+}
+
+.cotesMatch{
+	text-align: center;
+	padding: 4%;
+	background-color: #fff;
+}
+
+.displayCotes{
+	border: 2px solid #5cb85c;
+	border-radius: 4px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 20%;
+	padding-right: 15%;
+	margin-left: -5%;
+}
+
+.displayCotes a{
+	color: #000;
+}
+
+.displayCotes a:hover{
+	color: #5cb85c;
+	text-decoration: none;
+}
+
+.choice{
+	/*border: 1px solid #fff;*/
+	/*border-radius: 4px;*/
+	background-color: #5cb85c;
+	color: #fff;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-left: -20%;
+	margin-right: 10%;
+}
+
+.modal-header h1{
+	text-align: center;
+}
+
+.modalBuyTokens{
+	background-image: url('../img/tokens.jpg');
+	/*background-size: 100% 100%; */
+}
+
+.modalSellTokens{
+	background-image: url('../img/forSale.png');
+	background-size: 60% 100%;
+	background-repeat: no-repeat;
+}
+
+.modalSellTokens h1{
+	/*color: #fff;*/
+}
+
+.modal-body p{
+	/*color: #fff;*/
+	font-weight: bold;
+	margin-top: 2%;
+}
+
+.choiceRow{
+	border: 1px solid #000;
+	border-radius: 4px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-bottom: 5%;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+}
+
+.choiceRow:hover{
+	background-color: rgba(255, 255, 255, 0.6);
+	color: #000;
+	transition: 0.8s;
+}
+
+.buyTokens, .sellTokens{
+	border: 1px solid #000;
+	border-radius: 8px;
+	text-align: center;
+	/*background-image: url('../img/tokens2.jpg');*/
+	/*background-size: 100% 100%;*/
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	margin-left: 1%;
+}
+
+.buyTokens p, .sellTokens p{
+	margin-top: 6%;
+	/*font-size: 16px;*/
+}
+
+.buyTokens:hover, .sellTokens:hover{
+	box-shadow: 1px 1px 12px #000;
+	transition: 0.5s;
+}
+
+.infoUser{
+	border: 1px solid #fff;
+	border-radius: 4px;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #F7F457;
+	height: 450px;
+	margin-top: 1.5%;
+	margin-left: 5%;
+}
+
+.offre{
+	margin-top: 40%;
+}
+
+.inputbetTokens{
+    width: 50%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s;
+    -webkit-box-shadow: ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s;
+    box-shadow: ease-in-out .15s;
+    transition: border-color ease-in-out .15s;
+    box-shadow: ease-in-out .15s;
+}
+
+.inputSellTokens{
+    width: 50%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s;
+    -webkit-box-shadow: ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s;
+    box-shadow: ease-in-out .15s;
+    transition: border-color ease-in-out .15s;
+    box-shadow: ease-in-out .15s;
+}
+
+.errorMsg{
+	margin-top: -54%;
+	margin-left: 35%;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	width: 35%;
+	padding: 1%;
+	text-align: center;
+	background-color: red;
+	color: #fff;
+}
+
+.titleSellTokens{
+	font-size: 18px;
+	text-align: center;
+	/*font-weight: bold;*/
+	/*color: #fff;*/
+}
+
+.titleBetToken{
+	font-size: 18px;
+	text-align: center;
+	/*color: #fff;*/
+}
+
+.successfully{
+	margin-top: -36%;
+	margin-left: 35%;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	width: 35%;
+	text-align: center;
+	background-color: green;
+	color: #fff;
+	font-size: 24px;
+}

@@ -1,0 +1,243 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../img/fond.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed
+}
+
+.messagePrevention{
+	width: 100%;
+	background-color: #000000;
+}
+
+.messagePrevention p{
+	font-size: 16px;
+	text-align: center;
+	color: #FAFAFA;
+	font-family: sans-serif;
+	padding: 0.5%;
+}
+
+.messagePrevention span{
+	font-size: 10px;
+}
+
+nav a{
+	color: #fff;
+}
+
+nav a:hover{
+	text-decoration: none;
+	color: #5cb85c;
+	font-size: 16px;
+	transition: 0.8s;
+}
+
+nav{
+	margin-top: -1%;
+	background-color: #1C1C1C;
+	margin-bottom: 2%;
+}
+
+nav img{
+	width: 6%;
+}
+
+.modal-content{
+	background-image: url('../img/pelouse.jpg');
+	background-size: 100% 100%; 
+}
+
+.connect, .admin{
+	margin-top: 2%;
+}
+
+.formulaire h1{
+	text-align: center;
+}
+
+.formulaire{
+	margin-top: 2%;
+}
+
+.modalEvent{
+	width: 100%;
+}
+
+form{
+	min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: rgba(225, 255, 255, 0.5);
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    width: 38%;
+    margin: auto;
+}
+
+.prevention p{
+	margin-top: 4%;
+	font-size: 8px;
+}
+
+.btnConnect{
+	margin-top: 2.5%;
+	margin-left: 45%;
+}
+
+hr{
+	width: 70%;
+}
+
+footer{
+	position: absolute;
+	bottom: 0px;
+}
+
+.addEvent{
+	margin-bottom: 6%;
+	border: 1px solid #000;
+	border-radius: 8px;
+	text-align: center;
+	background-image: url('../img/pelouse.jpg');
+	background-size: 100% 100%;
+	color: #fff;
+}
+
+.addEvent p{
+	margin-top: 6%;
+	font-size: 16px;
+}
+
+.addEvent:hover{
+	box-shadow: 1px 1px 12px #000;
+	transition: 0.5s;
+}
+
+.sloganEvent{
+	width: 25%;
+	margin-top: 6%;
+}
+
+.modal-header h1{
+	color: #fff;
+}
+
+.inputNameEvent{
+	text-align: center;
+}
+
+.inputTeam{
+	width: 80%;
+}
+
+.inputTeam{
+	display: block;
+    width: 100%;
+    height: 34px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.inputTeam:focus{
+ 	box-shadow: 1px 1px 10px #ccc;
+	transition: ease-in-out .15s; 	
+}
+
+.inputCote{
+    display: block;
+    width: 65%;
+    height: 34px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.inputCote:focus{
+	 box-shadow: 1px 1px 10px #ccc;
+	 transition: ease-in-out .15s; 
+}
+
+.sponsorsAdmin{
+	/*margin-left: 38%;*/
+	/*margin-top: 15%;*/
+}
+
+.finishEvent{
+	margin-top: 1%;
+}
+
+.events{
+	border: 1px solid #000000;
+	margin: 2%;
+}
+
+.nameOfEvent{
+	background: linear-gradient(0deg, #0B0B3B, #0B0B61);
+	color: #fff;
+	padding: 3%;
+	text-align: center;
+}
+
+.cotesMatch{
+	text-align: center;
+	padding: 4%;
+	background-color: #fff;
+}
+
+.displayCotes{
+	border: 2px solid #5cb85c;
+	border-radius: 4px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 20%;
+	padding-right: 15%;
+	margin-left: -5%;
+}
+
+.displayCotes a{
+	color: #000;
+}
+
+.displayCotes a:hover{
+	color: #5cb85c;
+	text-decoration: none;
+}
+
+.choice{
+	/*border: 1px solid #fff;*/
+	/*border-radius: 4px;*/
+	background-color: #5cb85c;
+	color: #fff;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-left: -20%;
+	margin-right: 10%;
+}
+
+.errorMsgAddEvents{
+	margin-top: -52%;
+	margin-left: 41%;
+	border: 1px solid #000;
+	border-radius: 4px;
+	width: 20%;
+	padding: 1%;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0.4);
+	color: #fff;
+}
